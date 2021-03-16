@@ -6,7 +6,7 @@ const client = new Discord.Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION']
 
 const reactionData = require('./reaction.json')
 
-const token = 'ODE5NDQ4NzEzOTk4ODkzMDY2.YEmxFg.GBDZn8CaglBW69Low48qoamEqJI';
+const token = process.env.token;
 
 dquiz.add_question('육댕의 학교와 집은 가까운 편이다', '가깝지 않다', ['가깝다', '너무 가깝다', '순간이동 ㅆㄱㄴ']); //퀴즈내용
 console.log (dquiz.get_questions());
