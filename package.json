@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.3",
+  "description": "A package built ontop of Discord.js to make creating quiz commands much easier!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SkyMocha",
+  "license": "ISC",
+  "dependencies": {
+    "discord-quiz": "^1.0.4",
+    "discord.js": "^12.5.1",
+    "gif-search": "^2.1.0"
+  },
+  "main": "test",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyMocha/DiscordQuiz.git"
+  },
+  "keywords": [
+    "Discord.js",
+    "Discord",
+    "Quiz",
+    "Command"
+  ],
+  "bugs": {
+    "url": "https://github.com/SkyMocha/DiscordQuiz/issues"
+  },
+  "homepage": "https://github.com/SkyMocha/DiscordQuiz#readme"
+}
